@@ -2,14 +2,14 @@ package typeutils
 
 import "strings"
 
-func SplitEmptyStringEmptySlice(s string, sep string) []string {
+func SplitEmptyStringSliceEmpty(s string, sep string) []string {
 	if s == "" {
 		return []string{}
 	}
 	return strings.Split(s, sep)
 }
 
-func SplitEmptyStringNilSlice(s string, sep string) []string {
+func SplitEmptyStringSliceNil(s string, sep string) []string {
 	if s == "" {
 		return nil
 	}
