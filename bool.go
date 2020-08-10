@@ -5,8 +5,15 @@ func BoolPtr(b bool) *bool {
 }
 
 func BoolYNString(b bool) string {
-	if !b {
-		return "N"
+	if b {
+		return "Y"
 	}
-	return "Y"
+	return "N"
+}
+
+func BoolYesNoString(b bool) string {
+	if b {
+		return "Yes"
+	}
+	return "No"
 }
