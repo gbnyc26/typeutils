@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/fubotv/content-ops/utils/typeutils"
-	"github.com/fubotv/content-ops/utils/typeutils/valuetag"
+	"github.com/gbnyc26/typeutils"
+	"github.com/gbnyc26/typeutils/valuetag"
 	"log"
 	"testing"
 )
